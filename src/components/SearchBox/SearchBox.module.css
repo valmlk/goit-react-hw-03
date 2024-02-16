@@ -1,0 +1,12 @@
+.box {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.filter {
+  padding: 5px;
+  border-radius: 5px;
+  border: 2px solid #b5121b;
+  width: 240px;
+}
