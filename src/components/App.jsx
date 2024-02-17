@@ -35,7 +35,7 @@ const App = () => {
 
   useEffect(() => {
     window.localStorage.setItem('saved-contacts', JSON.stringify(contacts));
-  });
+  }, [contacts]);
 
   const visibleContacts = contacts.filter(contact =>
     contact.name.toLowerCase().includes(searchBox.toLowerCase())
